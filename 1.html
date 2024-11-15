@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulario de registro</title>
+    </head>
+    <body>
+        <h1 style="color:gold; background-color: white; border: 1px solid black">Formulario de registro</h1>
+        <fieldset>
+        <legend>Informacion del lugar</legend>
+        <form action="#" method="post">
+            <label for="name">Nombre del lugar:</label>
+            <input type="text" id="name" name="name" placeholder="Distrito o region" required>
+            <legend>Estado del lugar:</legend>
+            <input type="radio" id="sucio" name="Estado del lugar" value="Sucio" required>
+            <label for="sucio">Sucio</label>
+            <input type="radio" id="muy sucio" name="Estado del lugar" value="Muy sucio">
+            <label for="muy sucio">Muy sucio</label>
+            <input type="radio" id="grave" name="Estado del lugar" value="Grave">
+            <label for="grave">Grave</label>
+            <legend>Frecuencia de contaminacion:</legend>
+            <input type="radio" id="alta" name="Frecuencia de contaminacion" value="Alta">
+            <label for="alta">Alta</label><br>
+            <input type="radio" id="media" name="Frecuencia de contaminacion" value="Media">
+            <label for="media">Media</label><br>
+            <input type="radio" id="baja" name="Frecuencia de contaminacion" value="Baja">
+            <label for="baja">Baja</label><br>
+            <input type="submit" value="Enviar"><br>
+            <p style="color:blueviolet; background-color: yellow; border: 1px solid black; text-align: center;">
+                <a href="index.html">Inicio</a>
+            </p>
+        </fieldset>
+        </form>
+    </body>
+</html>
